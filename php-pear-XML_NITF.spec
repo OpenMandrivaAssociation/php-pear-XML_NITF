@@ -42,6 +42,11 @@ rm -rf %{buildroot}%{_datadir}/pear/tests
 install -d %{buildroot}%{_datadir}/pear/packages
 install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
+# nuke useless(?) files
+rm -rf %{buildroot}%{_datadir}/pear/data/XML_NITF/.buildpath
+rm -rf %{buildroot}%{_datadir}/pear/data/XML_NITF/.project
+rm -rf %{buildroot}%{_datadir}/pear/data/XML_NITF/.settings/org.eclipse.php.core.prefs
+
 %clean
 rm -rf %{buildroot}
 
