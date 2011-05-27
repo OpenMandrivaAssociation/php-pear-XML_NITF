@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.1.1
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Parse NITF documents
 License:	PHP License
 Group:		Development/PHP
