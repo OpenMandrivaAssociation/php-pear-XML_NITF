@@ -8,7 +8,7 @@ Release:	5
 Summary:	Parse NITF documents
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/XML_NITF/
+URL:		https://pear.php.net/package/XML_NITF/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
